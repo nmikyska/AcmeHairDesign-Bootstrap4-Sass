@@ -1,0 +1,430 @@
+@import "reset";
+@import "colors";
+@import "fonts";
+
+body{
+  position: relative;
+}
+.container-fluid{
+  padding-right:0 !important;
+  padding-left: 0 !important;
+}
+
+.nav{
+  font-family: $oswald;
+  margin-top: 15px;
+  width: 100%;
+  margin-right: 0;
+  margin-left: 0;
+  z-index: 999999;
+  .nav-link{
+    color: $black;
+    font-size: 24px;
+    
+  }  
+}
+
+.header-section{  
+    background-image: linear-gradient(90deg, $dkBlush 65%, $blush 0%);
+    .divider{
+      height: 4vw;
+      //position: relative;
+    }
+    img{
+      left: 0;
+      width: 100%;
+      height: auto;
+      margin:0 auto;
+      transition: opacity 1s ease-in-out;
+      //position: relative;
+    }
+    .firstCol {
+      padding: 0;
+    }
+    .secondCol{
+      padding-top: 10vw;
+      padding-bottom: 10vw;
+      //position: relative;
+    }
+    h1{
+      font-family: $script;
+      font-size: 6vw;
+      text-align: center;
+      font-weight: 500;
+      margin-top: 12vw;
+      
+    }
+    h6{
+      font-family: $oswald;
+      font-size: 16px;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      color: $tan;
+      line-height: 1.5em;
+      text-align: center;
+      //margin-left: -10vw;
+     }
+}//closes header section
+
+//start of aboutMe section
+.secondRow{
+  background-image: url("/images/divider.png");
+  background-position-x: left;
+  background-position-y: top;
+  background-repeat: repeat;
+  height: 1200px !important; //extends the divider.png down
+  
+  
+  .aboutMe{
+    background-color: $blush;
+    width: 50%;
+    margin-left: 5%;
+    margin-top: 5%;
+    height: 800px;
+    img{
+      width: 30vw;
+      //height: 40vw;
+
+    }
+    h2{
+      font-family: $oswald;
+      font-size: 26px;
+      line-height: 1.5em;
+      margin-left: 5%;
+      margin-top: 5%;
+      text-transform: uppercase;
+    }
+    p{
+      font-size: 16px;
+      line-height: 2em;
+      margin-left: 5%;
+      margin-right: 40%;
+    }
+    .hi{
+      font-family: $oswald;
+      font-size: 20vw;
+      line-height: 0.7em;
+      text-align: right;
+      color: $dkBlush;
+      opacity: 0.6;
+      margin-right: 0;
+     // position: relative;
+      //margin-top: -20px;
+    }
+  }
+    .services{
+     // position: absolute;
+      margin-top: 5% !important;
+      //background-color: yellow;
+      margin-left: 5%;
+      h2{
+        font-family: $oswald;
+        font-size: 26px;
+        text-transform: uppercase;
+        line-height: 1.5em;
+        color: $black;
+        padding-bottom: 20px;
+      }
+      p{
+        font-family: $oswald;
+        color: $dkTan;
+        font-size: 18px;
+        line-height: 2em;
+        
+      }
+    }
+    
+  }//end second row styling
+  //start of third row styling Pricing
+  .pricing{
+    margin-top: -100px !important;
+    h2{
+    margin: 0 auto;
+    padding-top: 30px;
+    font-family: $oswald;
+    font-size: 60px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    line-height: 1.5em;
+    text-align: center;
+    }
+  }
+  .womenMen, .color, .other{
+    margin-top: 5%;
+    background-color: $dkBlush;
+    margin-right: 5%;
+    margin-left: 5%;
+    h4{
+      padding-top: 30px;
+      font-family: $oswald;
+      font-size: 26px;
+      text-transform: uppercase;
+      line-height: 2em;
+      text-align: center;
+    }
+    p{
+      font-family: $roboto;
+      font-size: 16px;
+      text-align: center;
+      line-height: 2.5em;
+    }
+  }
+  #gallery{
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+  .gallery{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    h2{
+      font-family: $oswald;
+      font-size: 60px;
+      text-transform: uppercase;
+      font-weight: 700;
+      letter-spacing: 2px;
+      line-height: 1.5em;
+      text-align: right;
+      margin-top: 30%;
+      margin-right: -100px;
+    }
+    .images1{
+      text-align: right;
+    }
+    .images2{
+      text-align: left;
+    }
+    img{
+      margin: 10px;
+    }
+    .opacity{
+      opacity: 0.5;
+    }
+  }
+  .testimonials{
+    background-color: $blush;
+    
+    h2{
+      font-family: $oswald;
+      font-size: 60px;
+      text-transform: uppercase;
+      font-weight: 700;
+      letter-spacing: 2px;
+      line-height: 1.5em;
+      text-align: center;
+      margin-top: 50px;
+    }
+  }
+  .testImgs{
+    background-color: $blush;
+    .weddingHair{
+      width: 600px;
+      //height: 500px;
+      margin-left: 10%;
+      margin-top: 10%;
+    }
+    .weddingHairText p{
+      background-color: $blush;
+      text-align: left;
+      font-family: $roboto;
+      font-size: 18px;
+      font-weight: 600;
+      margin-left: -140px;
+      padding: 30px;
+      margin-top: 350px;
+      margin-right: 10%;
+    }
+  }
+  .row{
+    margin: 0 auto;
+
+  .testImgs2{
+    width: 100%;
+    background: $blush;
+    padding-top: 3%;
+    padding-bottom: 10%;
+    margin-right:0 !important;
+    margin-left:0 !important;
+    img{
+      width: 100%;
+      height: auto;
+      padding-left: 10%;
+      position: relative;
+      margin-left: auto !important;
+      margin-right: auto !important;
+    }
+    .arturoText{
+      width: 400px;
+      padding: 30px;
+      height: auto;
+      font-family: $roboto;
+      font-size: 18px;
+      font-weight: 600;
+      line-height: 1.8em;
+      margin-left: auto !important;
+      margin-right: auto !important;
+      margin-top: -70px;
+      position: relative;
+      background-color: $blush;
+      z-index:999;
+    }
+    
+    .pHairImg{
+        width: 100%;
+        padding-left: 0 !important;
+        position: relative;
+        margin-left: auto !important;
+        margin-right: auto !important;    
+    }
+    .pHairText{
+      width: 70%;
+      padding: 30px;
+      font-family: $roboto;
+      font-size: 18px;
+      font-weight: 600;
+      line-height: 1.8em;
+      background-color: $blush;
+      margin-top: -60px;
+      position: absolute;
+      margin-left: 15% !important;
+      margin-right: 15% !important;
+      z-index:999;
+    }
+    
+  }
+  
+.footer-gradient{  
+  background-image: linear-gradient(90deg, $dkBlush 65%, $blush 0%);
+  padding-top: 100px;
+  padding-bottom: 100px;
+  margin-bottom: 30px;
+  padding-left: 0;
+  padding-right: 0;
+}
+  .contact{
+   text-align: center;
+   background-image: url("/images/flowers.jpg");
+   background-repeat: no-repeat;
+   background-position: center;
+   padding-top: 100px !important;
+   padding-bottom: 100px !important;
+}
+}
+.bottomFooter{
+  text-align: center;
+  margin: 0 auto;
+  h2{
+    font-family: $oswald;
+    font-size: 20px;
+  }
+  p{
+    font-family: $roboto;
+    font-size: 16px;
+  }
+}
+
+//media queries//
+
+  @media(max-width: 800px){
+    .header-section img{
+      opacity: 0.5;
+    }
+    .header-section h1{
+      margin-left:-250px;
+      font-size: 60px;
+    }
+    .header-section h6{
+      margin-left:-80px;
+      margin-right: 30px;
+    }
+    .aboutMe{
+      width: 100% !important;
+      margin: 0 auto;
+      
+      height: calc(100% - 200px) !important;
+    }
+    .services{
+      width: 100% !important;
+      margin: 0 auto;
+      padding-top: 50px !important;
+      padding-left: 5% !important;
+      
+      height: calc(100% - 100px) !important;
+    }
+    .pricing{
+      width: 100%;
+      height: 100%;
+      margin-top: calc(100% + 50px) !important;
+      
+    }
+    .gallery h2{
+      margin: 0 auto;
+      width: 100%;
+      text-align: center;
+    }
+    .gallery img{
+      margin: 0 auto;
+      width: 100%;
+      align-items: center;
+      padding: 15px;
+    }
+    .testImgs{
+      align-items: center;
+    }
+    .weddingHairText p{
+      width: 60%;
+      margin-left: auto !important;
+      margin-right: auto !important;     
+      margin-top: -60px !important;
+  }
+  .testImgs2{
+    align-items: center !important;
+  }
+  img{
+    width: 100% !important;
+    margin: 0 auto !important;
+    padding-left:30px;
+    padding-right: 30px;
+   
+  }
+  .arturoText{
+    width: 70% !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    margin-top: -50px !important;
+    
+  }
+  .pHairText{
+    width: 70% !important;
+    margin-top: -50px !important;
+    margin-right: auto !important;
+    margin-left: auto !important;
+    
+  }
+  .pHair{
+    margin-bottom: 200px;
+    align-content: center;
+  }
+  .contact{
+    width: 80%;
+    margin:0 auto !important;
+    padding: 30px !important;
+    margin-right: 20px !important;
+  }
+  
+}
+@media(max-width: 500px){
+  .aboutMe{
+    width: 100% !important;
+    margin: 0 auto;
+    
+    height: calc(100% - 450px) !important;
+  }
+  .pricing{
+    width: 100%;
+    height: 100%;
+    margin-top: calc(100% + 150px) !important;
+    
+  }
+  
+}
